@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "npx nitropack prepare",
+    "dev": "npx nitropack dev",
+    "build": "npx nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nano-jsx": "^0.0.37",
+    "nitropack": "latest",
+    "zod": "^3.21.4"
+  }
+}

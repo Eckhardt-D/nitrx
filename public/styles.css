@@ -1,0 +1,35 @@
+main {
+  max-width: 650px;
+  margin-inline: auto;
+}
+
+header {
+  text-align: center;
+}
+
+.todo-list--container {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  min-height: calc(100vh - 100px)
+}
+
+.todo-list--container h2 {
+  margin: 0;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list--item {
+  padding: 1em;
+  border: 0.5px solid rgba(200, 200, 200, 0.5);
+  border-radius: 6px;
+}
+
+.todo-list--item p {
+  margin: 0;
+}
